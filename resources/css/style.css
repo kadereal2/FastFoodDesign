@@ -346,3 +346,20 @@ section {
     margin-bottom: 15px;
 
 }
+
+.city-feature {
+    margin-bottom: 5px;
+}
+
+.icon-small {
+    color: #e67e22;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    font-size: 120%;
+    line-height: 120%;
+    /*to align text and icons*/
+    margin-top: -4px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
