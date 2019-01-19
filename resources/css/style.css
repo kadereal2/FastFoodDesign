@@ -234,6 +234,10 @@ h2.after {
     margin-right: 25px;
 }
 
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
 .btn-app img {
     height: 50px;
     width: auto;
@@ -285,6 +289,30 @@ section {
     transform: scale(1.03);
     transition: transform 0.5s; opacity: 0.5s; /*Animation Effect in a photo*/
 }
+
+
+/* ------- LINKS ------------ */
+
+a:link,
+a:visited {
+    color: #e67e22;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+
+a:hover
+a:active {
+
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+
+
+
+
 
 
 
@@ -358,7 +386,9 @@ section {
     text-align: center;
     font-size: 120%;
     line-height: 120%;
+
     /*to align text and icons*/
+
     margin-top: -4px;
     vertical-align: middle;
     margin-right: 10px;
