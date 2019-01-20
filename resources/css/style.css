@@ -397,6 +397,7 @@ a:active {
 
 
 /* ------- TESTIMONIALS ------------ */
+
 .section-testimonials {
 
     background-image:  linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
@@ -426,9 +427,35 @@ cite img {
     margin-right: 10px;
 }
 
+/* ------- SIGN UPS ------------ */
 
+.section-plans {
 
+    background-color: #f4f4f4;
+}
 
+.plan-box {
+
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-price {
+
+    font-size: 300%;
+    margin-bottom: 10px;
+}
+
+.plan-price-meal {
+    font-size: 80%;
+}
 
 
 
